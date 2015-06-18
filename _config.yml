@@ -2,7 +2,7 @@
 title: 秋叶静美
 email: dolphineor@gmail.com
 description: > # dolphineor's blog based on Github Pages and Jekyll.
-baseurl: "/blog" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://dolphineor.info" # the base hostname & protocol for your site
 github_username:  dolphineor
 
