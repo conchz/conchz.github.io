@@ -1,7 +1,8 @@
 # Site settings
 title: 秋叶静美
 email: dolphineor@gmail.com
-description: > # dolphineor's blog based on Github Pages and Jekyll.
+description: >
+  dolphineor's blog based on Github Pages and Jekyll.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://dolphineor.info" # the base hostname & protocol for your site
 github_username:  dolphineor
