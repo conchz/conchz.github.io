@@ -11,3 +11,9 @@ layout: default
         {% include article-footer.html share=page.share eye_catch=true %}
     </article>
 </div>
+
+{% if site.disqus %}
+<section class="comments">
+    {% include disqus.html %}
+</section>
+{% endif %}
