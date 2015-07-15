@@ -1,0 +1,10 @@
+gem install RedCloth
+gem install redcarpet
+gem install github-pages
+gem install jemoji
+
+bundle install
+
+remove jemoji from your _config.yml
+
+bundle exec jekyll serve --config _config.yml _config_dev.yml
