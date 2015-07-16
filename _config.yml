@@ -12,10 +12,10 @@ avatar: /assets/img/ogp.png
 #
 icons:
   rss: true
-  email:
-  github: qckanemoto
+  email: dolphineor@gmail.com
+  github: dolphineor
   bitbucket:
-  twitter: qckanemoto
+  twitter:
   facebook:
   google_plus:
   tumblr:
@@ -40,7 +40,7 @@ permalink: pretty
 #
 # Scripts.
 #
-google_analytics: # e.g. UA-000000-01
+google_analytics: UA-65215123-1
 disqus:
 
 #
