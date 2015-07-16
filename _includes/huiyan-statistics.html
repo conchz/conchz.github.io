@@ -1,0 +1,12 @@
+<!-- Huiyan Analytics -->
+{% if site.huiyan_statistics %}
+<script>
+    var _pct = _pct || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "//t.best-ad.cn/t.js?tid={{ site.huiyan_statistics }}";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+{% endif %}

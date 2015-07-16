@@ -39,8 +39,8 @@
     <meta property="og:description" content="{{ description }}" />
 
     <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.js"></script>
     <![endif]-->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet">
@@ -48,27 +48,6 @@
     <link href="{{ '/assets/lib/easy-social-buttons/jquery.easy-social-buttons.css' | prepend: site.baseurl }}" rel="stylesheet">
     <link href="{{ '/assets/css/style.css' | prepend: site.baseurl }}" rel="stylesheet">
 
-    <!-- baidu.com -->
-    <script>
-        var _hmt = _hmt || [];
-        (function() {
-            var hm = document.createElement("script");
-            hm.src = "//hm.baidu.com/hm.js?95bf3dd62ffc8bc36e27cf49c28aac9f";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
-
-    <!-- hy.best-ad.cn -->
-    <script>
-        var _pct = _pct || [];
-        (function () {
-            var hm = document.createElement("script");
-            hm.src = "//t.best-ad.cn/t.js?tid=865139a5b3567f8a57a656f8dd91bb7a";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
 </head>
 <body>
 
@@ -145,6 +124,8 @@
 {% endif %}
 
 {% include google-analytics.html %}
+{% include baidu-statistics.html %}
+{% include huiyan-statistics.html %}
 
 </body>
 </html>
