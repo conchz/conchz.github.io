@@ -4,7 +4,7 @@
 url: "http://dolphineor.info" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 title: 银杏花开
-description: dolphineor's blog based on Github Pages and Jekyll.
+description: Where there's a will, there's a way.
 avatar: /assets/img/ogp.png
 
 #
