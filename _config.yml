@@ -1,9 +1,9 @@
 #
 # Basic settings.
 #
-url: "http://dolphineor.info" # the base hostname & protocol for your site
+url: "http://dolphineor.github.io" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
-title: 银杏花开
+title: 一米阳光
 description: Where there's a will, there's a way.
 avatar: /assets/img/ogp.png
 
